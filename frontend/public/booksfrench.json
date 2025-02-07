@@ -1,0 +1,203 @@
+[
+    {
+      "_id": 1,
+      "title": "Comment développer votre boutique en ligne",
+      "description": "Découvrez les meilleures stratégies pour développer votre boutique en ligne sur le marché concurrentiel d'aujourd'hui.",
+      "category": "affaires",
+      "trending": true,
+      "coverImage": "book-1.png",
+      "oldPrice": 29.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 2,
+      "title": "Top 10 des livres de fiction de l'année",
+      "description": "Une liste soigneusement sélectionnée des meilleurs livres de fiction qui font sensation cette année.",
+      "category": "livres",
+      "trending": true,
+      "coverImage": "book-2.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    },
+    {
+      "_id": 3,
+      "title": "Maîtriser le SEO en 2024",
+      "description": "Astuces et conseils pour améliorer votre SEO et obtenir un meilleur classement sur les moteurs de recherche.",
+      "category": "marketing",
+      "trending": true,
+      "coverImage": "book-3.png",
+      "oldPrice": 39.99,
+      "newPrice": 29.99
+    },
+    {
+      "_id": 4,
+      "title": "Meilleures plateformes de eCommerce",
+      "description": "Un guide complet pour choisir les meilleures plateformes de eCommerce en 2024.",
+      "category": "affaires",
+      "trending": false,
+      "coverImage": "book-4.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 5,
+      "title": "Lectures de non-fiction incontournables",
+      "description": "Nos meilleurs choix de livres de non-fiction à ajouter à votre liste de lecture.",
+      "category": "livres",
+      "trending": true,
+      "coverImage": "book-5.png",
+      "oldPrice": 19.99,
+      "newPrice": 9.99
+    },
+    {
+      "_id": 6,
+      "title": "Guide ultime du marketing numérique",
+      "description": "Un guide complet des stratégies de marketing numérique pour 2024.",
+      "category": "marketing",
+      "trending": false,
+      "coverImage": "book-6.png",
+      "oldPrice": 44.99,
+      "newPrice": 34.99
+    },
+    {
+      "_id": 7,
+      "title": "Les premiers jours",
+      "description": "Katie se rend au travail un beau matin lorsqu'un mort-vivant saute dans sa voiture et essaie de la dévorer. Ce même matin, Jenni ouvre une porte et trouve son mari en train de dévorer leur fils.",
+      "category": "horreur",
+      "trending": true,
+      "coverImage": "book-7.png",
+      "oldPrice": 59.99,
+      "newPrice": 49.99
+    },
+    {
+      "_id": 8,
+      "title": "Hunger Games",
+      "description": "Pouvez-vous survivre seul dans la nature, avec tout le monde prêt à vous empêcher de voir le matin ?",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "book-8.png",
+      "oldPrice": 21.99,
+      "newPrice": 16.99
+    },
+    {
+      "_id": 9,
+      "title": "Harry Potter et l'Ordre du Phénix",
+      "description": "Harry Potter est sur le point d'entamer sa cinquième année à l'école de sorcellerie de Poudlard. Contrairement à la plupart des garçons, Harry n'apprécie jamais ses vacances d'été.",
+      "category": "aventure",
+      "trending": false,
+      "coverImage": "book-9.png",
+      "oldPrice": 27.99,
+      "newPrice": 18.99
+    },
+    {
+      "_id": 10,
+      "title": "Orgueil et Préjugés",
+      "description": "La confrontation romantique entre l'opinionnée Elizabeth et son prétendant fier, M. Darcy, est une splendide performance de joutes civilisées.",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "book-10.png",
+      "oldPrice": 14.99,
+      "newPrice": 10.99
+    },
+    {
+      "_id": 11,
+      "title": "Ne tirez pas sur l'oiseau moqueur",
+      "description": "Le roman inoubliable d'une enfance dans une petite ville du Sud endormie et de la crise de conscience qui l'a secouée.",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "book-11.png",
+      "oldPrice": 32.99,
+      "newPrice": 25.99
+    },
+    {
+      "_id": 12,
+      "title": "Nos étoiles contraires",
+      "description": "Malgré le miracle médical qui a réduit sa tumeur, Hazel reste en phase terminale. Sa fin est écrite depuis le diagnostic.",
+      "category": "affaires",
+      "trending": true,
+      "coverImage": "book-12.png",
+      "oldPrice": 19.99,
+      "newPrice": 9.99
+    },
+    {
+      "_id": 13,
+      "title": "Le Portrait de Dorian Gray",
+      "description": "Le seul roman d'Oscar Wilde raconte l'histoire onirique d'un jeune homme qui vend son âme pour une jeunesse et une beauté éternelles.",
+      "category": "horreur",
+      "trending": true,
+      "coverImage": "book-13.png",
+      "oldPrice": 26.99,
+      "newPrice": 21.99
+    },
+    {
+      "_id": 14,
+      "title": "L'Arbre généreux",
+      "description": "Il était une fois un arbre... et il aimait un petit garçon. Ainsi commence une histoire pleine de perception, magnifiquement écrite et illustrée par Shel Silverstein.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "book-14.png",
+      "oldPrice": 34.99,
+      "newPrice": 24.99
+    },
+    {
+      "_id": 15,
+      "title": "Autant en emporte le vent",
+      "description": "Scarlett O'Hara, fille gâtée et belle d'un riche propriétaire de plantation, utilise tous les moyens à sa disposition pour sortir de la pauvreté après la marche de Sherman.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "book-15.png",
+      "oldPrice": 22.99,
+      "newPrice": 12.99
+    },
+    {
+      "_id": 16,
+      "title": "Le Voleur de Foudre",
+      "description": "Percy Jackson est un bon garçon, mais il ne peut pas se concentrer à l'école. Et dernièrement, les choses empirent - il aurait juré que son professeur de maths s'est transformé en monstre.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "book-16.png",
+      "oldPrice": 24.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 17,
+      "title": "Les aventures d'Alice au pays des merveilles",
+      "description": "Quand Alice voit un lapin blanc sortir une montre de sa poche, elle décide de le suivre, et une suite d'événements inhabituels commence.",
+      "category": "aventure",
+      "trending": true,
+      "coverImage": "book-17.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 18,
+      "title": "Divergent",
+      "description": "Chaque année, tous les jeunes de seize ans doivent choisir une faction à laquelle ils dévoueront le reste de leur vie.",
+      "category": "affaires",
+      "trending": true,
+      "coverImage": "book-18.png",
+      "oldPrice": 18.99,
+      "newPrice": 12.99
+    },
+    {
+      "_id": 19,
+      "title": "L'Alchimiste",
+      "description": "Le chef-d'œuvre de Paulo Coelho raconte l'histoire mystique de Santiago, un berger andalou qui rêve de trésors.",
+      "category": "shonen",
+      "trending": true,
+      "coverImage": "book-19.png",
+      "oldPrice": 35.99,
+      "newPrice": 27.99
+    },
+    {
+      "_id": 20,
+      "title": "Quatre mille semaines",
+      "description": "Nous sommes obsédés par nos listes de tâches interminables, nos boîtes de réception débordées et la quête de productivité.",
+      "category": "affaires",
+      "trending": false,
+      "coverImage": "book-20.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    }
+  ]
+  

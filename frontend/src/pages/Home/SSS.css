@@ -1,0 +1,83 @@
+.slider1 {
+  position: relative;
+  width: 100%; /* Full width slider */
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides-container1 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide1 {
+  min-width: 100%; /* 1 slide visible per frame by default */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.prev-btn1,
+.next-btn1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.prev-btn1 {
+  left: 10px;
+}
+
+.next-btn1 {
+  right: 10px;
+}
+
+.prev-btn1:hover,
+.next-btn1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* For mobile devices (small screens) */
+@media screen and (max-width: 639px) {
+  .slide1 {
+      min-width: 100%; /* 1 slide visible */
+  }
+
+  .prev-btn1,
+  .next-btn1 {
+      padding: 12px;
+      font-size: 22px;
+  }
+}
+
+/* For larger screens like tablets and up to large desktops, excluding laptop sizes */
+@media screen and (min-width: 1024px) {
+  .slide1 {
+      min-width: 50%; /* 2 slides visible */
+  }
+
+  .prev-btn1,
+  .next-btn1 {
+      padding: 15px;
+      font-size: 24px;
+  }
+}
+
+/* For very large screens (desktops with big resolutions) */
+@media screen and (min-width: 1400px) {
+  .slide1 {
+      min-width: 50%; /* 4 slides visible */
+  }
+}

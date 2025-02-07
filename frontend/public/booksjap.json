@@ -1,0 +1,203 @@
+[
+    {
+      "_id": 1,
+      "title": "オンラインストアを成長させる方法",
+      "description": "今日の競争の激しい市場でオンラインストアを成長させるための最良の戦略を学びましょう。",
+      "category": "ビジネス",
+      "trending": true,
+      "coverImage": "book-1.png",
+      "oldPrice": 29.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 2,
+      "title": "今年のトップ10フィクション本",
+      "description": "今年注目されている最高のフィクション本を厳選したリスト。",
+      "category": "本",
+      "trending": true,
+      "coverImage": "book-2.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    },
+    {
+      "_id": 3,
+      "title": "2024年のSEOをマスターする",
+      "description": "SEOを向上させ、検索エンジンで上位にランクするためのヒントとトリック。",
+      "category": "マーケティング",
+      "trending": true,
+      "coverImage": "book-3.png",
+      "oldPrice": 39.99,
+      "newPrice": 29.99
+    },
+    {
+      "_id": 4,
+      "title": "ベストeコマースプラットフォーム",
+      "description": "2024年に最適なeコマースプラットフォームを選ぶための包括的ガイド。",
+      "category": "ビジネス",
+      "trending": false,
+      "coverImage": "book-4.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 5,
+      "title": "必読のノンフィクション本",
+      "description": "あなたの読書リストに追加したい最高のノンフィクション本を紹介。",
+      "category": "本",
+      "trending": true,
+      "coverImage": "book-5.png",
+      "oldPrice": 19.99,
+      "newPrice": 9.99
+    },
+    {
+      "_id": 6,
+      "title": "デジタルマーケティングの究極ガイド",
+      "description": "2024年のデジタルマーケティング戦略の完全ガイド。",
+      "category": "マーケティング",
+      "trending": false,
+      "coverImage": "book-6.png",
+      "oldPrice": 44.99,
+      "newPrice": 34.99
+    },
+    {
+      "_id": 7,
+      "title": "ザ・ファーストデイズ",
+      "description": "ある美しい日にケイティが車を運転していると、死者が彼女の車に飛び込んできて彼女を食べようとする。同じ朝、ジェニーが寝室のドアを開けると、夫が幼い息子を食べている。",
+      "category": "ホラー",
+      "trending": true,
+      "coverImage": "book-7.png",
+      "oldPrice": 59.99,
+      "newPrice": 49.99
+    },
+    {
+      "_id": 8,
+      "title": "ハンガー・ゲーム",
+      "description": "荒野で一人で生き延びられるか？ しかも全員があなたを殺そうとする中で。",
+      "category": "フィクション",
+      "trending": true,
+      "coverImage": "book-8.png",
+      "oldPrice": 21.99,
+      "newPrice": 16.99
+    },
+    {
+      "_id": 9,
+      "title": "ハリー・ポッターと不死鳥の騎士団",
+      "description": "ハリー・ポッターはホグワーツ魔法魔術学校で5年目を迎えようとしている。ほとんどの学生と違い、ハリーは夏休みを楽しむことはない。",
+      "category": "冒険",
+      "trending": false,
+      "coverImage": "book-9.png",
+      "oldPrice": 27.99,
+      "newPrice": 18.99
+    },
+    {
+      "_id": 10,
+      "title": "高慢と偏見",
+      "description": "意見の強いエリザベスと彼女の誇り高きダーシー氏のロマンチックな対立は、洗練された争いの見事な演技。",
+      "category": "フィクション",
+      "trending": true,
+      "coverImage": "book-10.png",
+      "oldPrice": 14.99,
+      "newPrice": 10.99
+    },
+    {
+      "_id": 11,
+      "title": "アラバマ物語",
+      "description": "眠れる南部の町での幼少期とそれを揺るがした良心の危機の忘れられない物語。",
+      "category": "フィクション",
+      "trending": true,
+      "coverImage": "book-11.png",
+      "oldPrice": 32.99,
+      "newPrice": 25.99
+    },
+    {
+      "_id": 12,
+      "title": "星の巡りあわせ",
+      "description": "病気の奇跡的な進展で少し寿命を延ばされたものの、ヘイゼルは診断時点で彼女の物語が終わる運命にある。",
+      "category": "ビジネス",
+      "trending": true,
+      "coverImage": "book-12.png",
+      "oldPrice": 19.99,
+      "newPrice": 9.99
+    },
+    {
+      "_id": 13,
+      "title": "ドリアン・グレイの肖像",
+      "description": "オスカー・ワイルド唯一の小説は、永遠の若さと美しさを得るために魂を売る若者の夢のような物語。",
+      "category": "ホラー",
+      "trending": true,
+      "coverImage": "book-13.png",
+      "oldPrice": 26.99,
+      "newPrice": 21.99
+    },
+    {
+      "_id": 14,
+      "title": "大きな木",
+      "description": "「ある木がいて…彼女は小さな男の子を愛していました。」この忘れられない洞察に満ちた物語は、シェル・シルヴァースタインの才能により書かれ、美しくイラスト化されています。",
+      "category": "フィクション",
+      "trending": false,
+      "coverImage": "book-14.png",
+      "oldPrice": 34.99,
+      "newPrice": 24.99
+    },
+    {
+      "_id": 15,
+      "title": "風と共に去りぬ",
+      "description": "美しいが甘やかされて育ったジョージア州プランテーションオーナーの娘スカーレット・オハラは、シェルマンの行進後の貧困から抜け出すため、あらゆる手段を駆使する。",
+      "category": "フィクション",
+      "trending": false,
+      "coverImage": "book-15.png",
+      "oldPrice": 22.99,
+      "newPrice": 12.99
+    },
+    {
+      "_id": 16,
+      "title": "稲妻泥棒",
+      "description": "パーシー・ジャクソンは良い子だが、学校の宿題に集中したり、怒りをコントロールしたりすることができない。そして最近、寄宿学校にいるのがさらに悪化している。",
+      "category": "フィクション",
+      "trending": false,
+      "coverImage": "book-16.png",
+      "oldPrice": 24.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 17,
+      "title": "不思議の国のアリス",
+      "description": "アリスが白ウサギがチョッキのポケットから時計を取り出すのを見たとき、彼女はそれを追いかけることに決める。",
+      "category": "冒険",
+      "trending": true,
+      "coverImage": "book-17.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 18,
+      "title": "ダイバージェント",
+      "description": "毎年指定された日に、16歳の全員が一生捧げる派閥を選ばなければならない。",
+      "category": "ビジネス",
+      "trending": true,
+      "coverImage": "book-18.png",
+      "oldPrice": 18.99,
+      "newPrice": 12.99
+    },
+    {
+      "_id": 19,
+      "title": "アルケミスト",
+      "description": "サンティアゴというアンダルシアの羊飼いの少年が、世俗の宝物を探すために旅に出る夢のような物語。",
+      "category": "少年",
+      "trending": true,
+      "coverImage": "book-19.png",
+      "oldPrice": 35.99,
+      "newPrice": 27.99
+    },
+    {
+      "_id": 20,
+      "title": "四千週間",
+      "description": "誰もが時間が足りないと感じている。生産性や効率を高める方法のアドバイスが氾濫する中、この本は新たな視点を提供します。",
+      "category": "ビジネス",
+      "trending": false,
+      "coverImage": "book-20.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    }
+  ]
+  

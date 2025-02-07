@@ -1,0 +1,203 @@
+[
+    {
+      "_id": 1,
+      "title": "Wie Sie Ihren Online-Shop wachsen lassen",
+      "description": "Lernen Sie die besten Strategien, um Ihren Online-Shop im heutigen wettbewerbsintensiven Markt zu erweitern.",
+      "category": "geschäft",
+      "trending": true,
+      "coverImage": "book-1.png",
+      "oldPrice": 29.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 2,
+      "title": "Top 10 Belletristik-Bücher dieses Jahres",
+      "description": "Eine kuratierte Liste der besten Belletristik-Bücher, die in diesem Jahr im Trend liegen.",
+      "category": "bücher",
+      "trending": true,
+      "coverImage": "book-2.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    },
+    {
+      "_id": 3,
+      "title": "SEO meistern im Jahr 2024",
+      "description": "Tipps und Tricks, um Ihr SEO zu verbessern und in Suchmaschinen höher zu ranken.",
+      "category": "marketing",
+      "trending": true,
+      "coverImage": "book-3.png",
+      "oldPrice": 39.99,
+      "newPrice": 29.99
+    },
+    {
+      "_id": 4,
+      "title": "Die besten eCommerce-Plattformen",
+      "description": "Ein umfassender Leitfaden zur Auswahl der besten eCommerce-Plattformen für 2024.",
+      "category": "geschäft",
+      "trending": false,
+      "coverImage": "book-4.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 5,
+      "title": "Sachbücher, die Sie ausprobieren sollten",
+      "description": "Unsere Top-Empfehlungen für Sachbücher, die Sie Ihrer Leseliste hinzufügen können.",
+      "category": "bücher",
+      "trending": true,
+      "coverImage": "book-5.png",
+      "oldPrice": 19.99,
+      "newPrice": 9.99
+    },
+    {
+      "_id": 6,
+      "title": "Der ultimative Leitfaden für digitales Marketing",
+      "description": "Ein vollständiger Leitfaden für digitale Marketingstrategien für 2024.",
+      "category": "marketing",
+      "trending": false,
+      "coverImage": "book-6.png",
+      "oldPrice": 44.99,
+      "newPrice": 34.99
+    },
+    {
+      "_id": 7,
+      "title": "Die ersten Tage",
+      "description": "Katie fährt an einem schönen Tag zur Arbeit, als ein Toter in ihr Auto springt und versucht, sie zu fressen. Am selben Morgen öffnet Jenni eine Tür und sieht, wie ihr Mann ihren kleinen Sohn auffrisst.",
+      "category": "horror",
+      "trending": true,
+      "coverImage": "book-7.png",
+      "oldPrice": 59.99,
+      "newPrice": 49.99
+    },
+    {
+      "_id": 8,
+      "title": "Die Tribute von Panem",
+      "description": "Könnten Sie alleine in der Wildnis überleben, wenn alle versuchen, Sie daran zu hindern, den Morgen zu erleben?",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "book-8.png",
+      "oldPrice": 21.99,
+      "newPrice": 16.99
+    },
+    {
+      "_id": 9,
+      "title": "Harry Potter und der Orden des Phönix",
+      "description": "Harry Potter beginnt sein fünftes Jahr an der Hogwarts-Schule für Hexerei und Zauberei. Anders als die meisten Jungen genießt Harry nie seine Sommerferien.",
+      "category": "abenteuer",
+      "trending": false,
+      "coverImage": "book-9.png",
+      "oldPrice": 27.99,
+      "newPrice": 18.99
+    },
+    {
+      "_id": 10,
+      "title": "Stolz und Vorurteil",
+      "description": "Die romantische Auseinandersetzung zwischen der meinungsstarken Elizabeth und ihrem stolzen Verehrer Mr. Darcy ist eine brillante Vorstellung zivilisierter Wortgefechte.",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "book-10.png",
+      "oldPrice": 14.99,
+      "newPrice": 10.99
+    },
+    {
+      "_id": 11,
+      "title": "Wer die Nachtigall stört",
+      "description": "Der unvergessliche Roman über eine Kindheit in einer verschlafenen Südstadt und die Gewissenskrise, die sie erschütterte. 'Wer die Nachtigall stört' wurde sofort ein Bestseller.",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "book-11.png",
+      "oldPrice": 32.99,
+      "newPrice": 25.99
+    },
+    {
+      "_id": 12,
+      "title": "Das Schicksal ist ein mieser Verräter",
+      "description": "Trotz eines medizinischen Wunders, das ihren Tumor verkleinerte, hat Hazel nie aufgehört, terminal zu sein. Ihr letztes Kapitel war bereits bei der Diagnose besiegelt.",
+      "category": "geschäft",
+      "trending": true,
+      "coverImage": "book-12.png",
+      "oldPrice": 19.99,
+      "newPrice": 9.99
+    },
+    {
+      "_id": 13,
+      "title": "Das Bildnis des Dorian Gray",
+      "description": "Oscar Wildes einziger Roman ist die traumhafte Geschichte eines jungen Mannes, der seine Seele für ewige Jugend und Schönheit verkauft.",
+      "category": "horror",
+      "trending": true,
+      "coverImage": "book-13.png",
+      "oldPrice": 26.99,
+      "newPrice": 21.99
+    },
+    {
+      "_id": 14,
+      "title": "Der Baum, der Freude schenkte",
+      "description": "'Es war einmal ein Baum... und sie liebte einen kleinen Jungen.' So beginnt eine Geschichte voller Wahrnehmung, wunderschön geschrieben und illustriert von Shel Silverstein.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "book-14.png",
+      "oldPrice": 34.99,
+      "newPrice": 24.99
+    },
+    {
+      "_id": 15,
+      "title": "Vom Winde verweht",
+      "description": "Scarlett O'Hara, die verwöhnte Tochter eines reichen Plantagenbesitzers, muss alles tun, um sich aus der Armut zu befreien, in die sie nach Shermans Marsch ins Meer geraten ist.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "book-15.png",
+      "oldPrice": 22.99,
+      "newPrice": 12.99
+    },
+    {
+      "_id": 16,
+      "title": "Diebe im Olymp",
+      "description": "Percy Jackson ist ein guter Junge, aber er kann sich nicht auf seine Schularbeiten konzentrieren oder seinen Ärger kontrollieren. Und in letzter Zeit wird es in seiner Internatsschule nur schlimmer.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "book-16.png",
+      "oldPrice": 24.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 17,
+      "title": "Alice im Wunderland",
+      "description": "Als Alice ein weißes Kaninchen sieht, das eine Uhr aus der Westentasche nimmt, beschließt sie, ihm zu folgen. So beginnt eine Reihe ungewöhnlicher Ereignisse.",
+      "category": "abenteuer",
+      "trending": true,
+      "coverImage": "book-17.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 18,
+      "title": "Die Bestimmung",
+      "description": "Jedes Jahr müssen alle 16-Jährigen eine Fraktion auswählen, der sie den Rest ihres Lebens widmen werden. Für Beatrice ist die Entscheidung schwer.",
+      "category": "geschäft",
+      "trending": true,
+      "coverImage": "book-18.png",
+      "oldPrice": 18.99,
+      "newPrice": 12.99
+    },
+    {
+      "_id": 19,
+      "title": "Der Alchemist",
+      "description": "Paulo Coelhos Meisterwerk erzählt die mystische Geschichte von Santiago, einem andalusischen Schäferjungen, der nach einem Schatz sucht.",
+      "category": "shonen",
+      "trending": true,
+      "coverImage": "book-19.png",
+      "oldPrice": 35.99,
+      "newPrice": 27.99
+    },
+    {
+      "_id": 20,
+      "title": "Vier tausend Wochen",
+      "description": "Niemand muss daran erinnert werden, dass die Zeit knapp ist. Wir sind von To-Do-Listen und Arbeitsbelastungen besessen.",
+      "category": "geschäft",
+      "trending": false,
+      "coverImage": "book-20.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    }
+  ]
+  
