@@ -7,6 +7,11 @@ import Login from "../components/Login";
 import Register from "../components/Register";
 import Cart from"../pages/Cart"
 import Checkout from "../pages/Checkout";
+import Singlebook from "../pages/books/singlebook";
+import Privateroute from "./privateroute"
+import OrderPage from "../pages/OrderPage";
+import AdminRoute from "./AdminRoute";
+import AdminLogin from "../components/AdminLogin";
 
 
 const router= createBrowserRouter([
@@ -20,7 +25,7 @@ const router= createBrowserRouter([
             },
             {
                 path:"/orders",
-                element: <div>himanshu</div>
+                element: <Privateroute><OrderPage/></Privateroute>  
             },
             {
                 path:"/about",
@@ -40,10 +45,41 @@ const router= createBrowserRouter([
             },
             {
                 path:"/checkout",
-                element: <Checkout/>
+                element:<Privateroute><Checkout/></Privateroute>  
             },
+            {
+                path:`/books/:id`,
+                element:<Singlebook/>
+            }
         ]
     },
+    {
+        path:"/admin",
+        element:<AdminLogin/>
+    },
+    {
+        path:"/dashboard",
+        element:<AdminRoute></AdminRoute>,
+        children:[
+            {
+                path:"",
+                element:<AdminRoute></AdminRoute>
+            },
+            {
+                path:"add-new-book",
+                element:<AdminRoute></AdminRoute>
+            },
+            {
+                path:"edit-book/:id",
+                element:<AdminRoute></AdminRoute>
+            },
+            {
+                path:"manage-books",
+                element:<AdminRoute></AdminRoute>
+            },
+          
+        ]
+    }
 ]) 
 
 export default router;

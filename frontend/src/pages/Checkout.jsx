@@ -1,24 +1,28 @@
 import React,{useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import { FaGoogle } from 'react-icons/fa';
 import { useForm } from 'react-hook-form';
+import { useAuth } from '../context/Authcontext';
+import { useCreateOrderMutation } from '../redux/features/orders/orders';
+import Swal from 'sweetalert2';
 
 
 
 const Checkout = () => {
+    const  navigate=useNavigate();
     const cardItems=useSelector(state=>state.card.cardItems);
     let total = 0;
     cardItems.map((item) => {
         total += item.newPrice
     })
+    const [createOrder,{isLoading,error}]=useCreateOrderMutation()
     const [isChecked,setisChecked]=useState(false)
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => {
-        console.log(data);
+    const onSubmit =async (data) => {
         const newOrder = {
             name: data.name,
-            email: currentUser?.email,
+            email: currentuser?.email,
             address: {
                 city: data.city,
                 country: data.country,
@@ -30,10 +34,29 @@ const Checkout = () => {
             productIds: cardItems.map(item => item?._id),
             totalPrice: total,
         }
-        console.log(newOrder)
+        
+        try {
+            await createOrder(newOrder).unwrap(),
+            Swal.fire({
+                title: "Conformed Order",
+                text: "Your Order placed Successfully!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, Its Okay!"
+              })
+              navigate("/orders")
+            
+        } catch (error) {
+            console.error(error)
+            alert("Failed to place an order")
+        }
     }
-   
-    const currentUser = true
+   if(isLoading) return <div>Loading...</div>
+
+    const { currentuser}=useAuth();
+    console.log( currentuser.email)
 
    
     return (
@@ -71,7 +94,7 @@ const Checkout = () => {
 
                                                 type="text" name="email" id="email" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                                                 disabled
-                                                defaultValue={currentUser?.email}
+                                                defaultValue={currentuser?.email}
                                                 placeholder="email@domain.com" />
                                         </div>
 

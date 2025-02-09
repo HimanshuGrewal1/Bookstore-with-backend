@@ -252,6 +252,7 @@ import Bookscard from "../books/Bookscard";
 import "./styles.css";
 import "./Slider.css"; 
 import { useSelector } from "react-redux";
+import { useFetchAllbooksQuery } from "../../redux/features/books/books";
 
 const tsm = {
   eng:["Top Sellers"],
@@ -279,29 +280,18 @@ const categorieseng = ["choose a genre", "Business", "Fiction", "Horror", "Shone
 
 const TopSeller = ({ setSharedData }) => {
   const selectlan = useSelector((state) => state.language.selectedLan);
+  const{data:books=[]}=useFetchAllbooksQuery();
  
-  const [books, setBooks] = useState([]);
+  
   const [selectedCategory, setSelectedCategory] = useState("choose a genre");
   const [currentSlide, setCurrentSlide] = useState(0);
   
-  setSharedData(selectlan)
-
-const gg = async()=>{
-
-   try {
-    const res = await fetch(`/books${selectlan}.json`).catch(console.log("rfnerf"))
-     const data = await res.json()
-     setBooks(data)
-  
-   ;
-   } catch (error) {
-  
-   }
-}
-
   useEffect(() => {
-        gg();
-  }, [selectlan,selectedCategory]);
+    setSharedData(selectlan);
+  }, [selectlan, setSharedData]);  // Runs only when selectlan changes
+  
+
+ 
  
   
   const [filteredBooks, setFilteredBooks] = useState([]);
@@ -312,12 +302,15 @@ const gg = async()=>{
 
 
 useEffect(() => {
-  setFilteredBooks(
-    ["choose a genre", "ジャンルを選択", "Choisissez un genre", "Wähle ein Genre"].includes(selectedCategory)
-      ? books
-      : books.filter((book) => book.category.toLowerCase() === selectedCategory.toLowerCase())
-  );
+  if (books.length > 0) {
+    setFilteredBooks(
+      ["choose a genre", "ジャンルを選択", "Choisissez un genre", "Wähle ein Genre"].includes(selectedCategory)
+        ? books
+        : books.filter((book) => book.category?.toLowerCase() === selectedCategory?.toLowerCase())
+    );
+  }
 }, [selectedCategory, books]);
+
   const totalSlides = filteredBooks.length;
 
   const nextSlide = () => {
@@ -340,7 +333,7 @@ useEffect(() => {
       <h2 className="text-3xl font-semibold mb-6">{tsm[selectlan]}</h2>
       <div className="mb-8 flex gap-4 items-center">
         <select
-        value={{selectedCategory}}
+        value={selectedCategory}
           onChange={(event) => setSelectedCategory(event.target.value)}
           name="category"
           id="category"

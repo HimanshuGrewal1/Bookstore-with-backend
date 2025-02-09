@@ -13,6 +13,7 @@ import { useDispatch } from "react-redux";
 
 import { setLanguage } from "../redux/features/language/languageslice";
 import { useSelector } from "react-redux";
+import { useAuth } from '../context/Authcontext';
 
 const bsm = {
   eng:["Top Sellers"],
@@ -37,13 +38,17 @@ const navigation = [
 
 
 const Navbar = () => {
+    const {currentuser,logout}=useAuth();
+    
     const dispatch = useDispatch();
    
     const [isddo, setisddo] = useState(false)
-    const currentuser = true
+    
     const cardItems=useSelector(state=>state.card.cardItems);
    
-   
+   const handlelogout=()=>{
+      logout();
+   }
    
 
     return (
@@ -94,6 +99,9 @@ const Navbar = () => {
                                                         </li>
                                                     ))
                                                 }
+                                                <li>
+                                                    <button onClick={handlelogout} className='bolck px-4 py-2 text-sm '>Logout</button>
+                                                </li>
                                             </ul>
                                         </div>
                                     )

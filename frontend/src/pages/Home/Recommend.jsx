@@ -4,7 +4,7 @@ import Bookscard from "../books/Bookscard";
 import "./styles.css";
 import "./Slider.css"; 
 import { useSelector } from "react-redux";
-
+import { useFetchAllbooksQuery } from "../../redux/features/books/books";
 const bsm = {
   eng:["Recommend for You"],
   jap: ["あなたにおすすめ"],
@@ -17,7 +17,7 @@ const bsm = {
 
 
 const Recommend = ({ sharedData }) => {
-     const [books, setbooks] = useState([]);
+     const{data:books=[]}=useFetchAllbooksQuery();
         const [selectedc, setslectedc] = useState("choose a genre");
         const [currentSlide, setCurrentSlide] = useState(0);
         const nextSlide = () => {
@@ -28,11 +28,7 @@ const Recommend = ({ sharedData }) => {
           setCurrentSlide((prev) => (prev === 0 ? totalSlides - 1 : prev - 1));
         };
       
-        useEffect(() => {
-            fetch(`books${sharedData}.json`).then(res =>  res.json()).then((data) => setbooks(data));
-        
-            
-        }, [sharedData])
+     
        
         const totalSlides = books.slice(8,18).length;
   return (
