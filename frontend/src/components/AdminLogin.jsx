@@ -44,8 +44,8 @@ const AdminLogin = () => {
                 <input  {...register("username", { required: true })} type="username" name='username' placeholder='username ' className='shadow appearance-none border rounded w-[90%] ml-[5%] py-2 px-3 leading-tight focus:outline-none focus:shadow' />
               </div>
               <div className='mb-4'>
-                <label className='block text-gray-700 text-sm font-bold mb-2 ml-6' htmlFor="email">Passward</label>
-                <input {...register("passward", { required: true })} type="passward" name='passward' placeholder='Passward' className='shadow appearance-none border rounded w-[90%] ml-[5%] py-2 px-3 leading-tight focus:outline-none focus:shadow' />
+                <label className='block text-gray-700 text-sm font-bold mb-2 ml-6' htmlFor="email">Password</label>
+                <input {...register("password", { required: true })} type="password" name='password' placeholder='Password' className='shadow appearance-none border rounded w-[90%] ml-[5%] py-2 px-3 leading-tight focus:outline-none focus:shadow' />
               </div>
               {
                     message && <p className='text-red-500 text-xs italic mb-3'>{message}</p>

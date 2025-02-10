@@ -12,6 +12,6 @@ router.get("/:id",getabook)
 
 router.put("/edit/:id",verifyAdminToken,updateabook)
 
-router.delete("/delete/:id",verifyAdminToken,deleteabook)
+router.delete("/:id",verifyAdminToken,deleteabook)
 
 module.exports=router;
