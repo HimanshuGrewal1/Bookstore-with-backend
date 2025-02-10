@@ -33,6 +33,7 @@
 
 // //XkbnZkDNhb1fh3aD
 
+
 const express = require('express');
 const cors = require("cors");
 const mongoose = require('mongoose');
@@ -59,6 +60,7 @@ app.use("/api/orders", ordersroutes);
 app.use("/api/auth", userroutes);
 app.use("/api/admin", adminroutes);
 
+// Connect to MongoDB
 async function main() {
     try {
         await mongoose.connect(process.env.DB_URL, {
@@ -70,7 +72,6 @@ async function main() {
         console.error("❌ MongoDB Connection Error:", error);
     }
 }
-
 main();
 
 // Test Route
@@ -78,5 +79,5 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-// Export app for Vercel (🚀 REQUIRED)
+// Export the app (✅ REQUIRED for Vercel)
 module.exports = app;
