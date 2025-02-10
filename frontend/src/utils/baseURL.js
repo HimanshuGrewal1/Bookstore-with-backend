@@ -1,5 +1,5 @@
 const getbaseurl=()=>{
-    return"http://localhost:3000"
+    return`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}`
 }
 
 export default getbaseurl

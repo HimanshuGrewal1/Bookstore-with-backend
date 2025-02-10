@@ -44,7 +44,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-   origin: ['http://localhost:5173','https://bookstore-three-rose.vercel.app/'],
+   origin: [`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}`,'https://bookstore-three-rose.vercel.app/'],
    credentials: true
 }));
 
