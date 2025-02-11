@@ -1,7 +1,6 @@
 const express = require("express");
 const User = require("./user.model"); // Ensure correct filename
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcryptjs");
 const router = express.Router();
 
 const JWT_SECRET = process.env.JWT_SECRET_KEY;
@@ -15,9 +14,8 @@ router.post("/admin", async (req, res) => {
       return res.status(404).send({ message: "Admin not found!" });
     }
 
-    // Use bcrypt to compare hashed password
-    const isMatch = await bcrypt.compare(password, admin.password);
-    if (!isMatch) {
+    // Direct password comparison (no hashing)
+    if (admin.password !== password) {
       return res.status(401).send({ message: "Invalid password!" });
     }
 
