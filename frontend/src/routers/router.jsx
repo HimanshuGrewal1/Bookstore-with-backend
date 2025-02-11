@@ -7,7 +7,7 @@ import Login from "../components/Login";
 import Register from "../components/Register";
 import Cart from"../pages/Cart"
 import Checkout from "../pages/Checkout";
-import Singlebook from "../pages/books/singlebook";
+import Singlebook from "../pages/books/Singlebook";
 import Privateroute from "./privateroute"
 import OrderPage from "../pages/OrderPage";
 import AdminRoute from "./AdminRoute";
